@@ -9,3 +9,10 @@ export class AlertLogger{
         alert(message)
     }
 }
+
+export class DevLogger{
+    log(message){
+        console.log('logger from dev')
+    }
+}
+
