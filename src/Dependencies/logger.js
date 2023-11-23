@@ -10,9 +10,8 @@ export class AlertLogger{
     }
 }
 
-export class DevLogger{
+export class FromFeature{
     log(message){
-        console.log('logger from dev')
+        console.log('First Feature change')
     }
 }
-
